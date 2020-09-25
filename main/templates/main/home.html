@@ -1,0 +1,51 @@
+{% include 'base.html' %}
+
+{% block title %} الرئيسيه {% endblock title %}
+
+
+{% block body %}
+    {% include 'about.html' %}
+    <div class="statistics text-capitalize text-center font-weight-bold">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <i class="fas fa-umbrella-beach fa-3x"></i>
+                        <h3>425</h3>
+                        <p>Tourists</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <i class="fas fa-birthday-cake fa-3x"></i>
+                        <h3>125</h3>
+                        <p>years</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <i class="fa fa-home fa-3x"></i>
+                        <h3>325</h3>
+                        <p>cottages</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <i class="fas fa-glass-cheers fa-3x"></i>
+                        <h3>120</h3>
+                        <p>restaurants</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <div class="violet-overlay">
+                <div class="container">
+                    <h2 class="text-center">Get in touch</h2>
+                    <div class="contact-form">
+                        <form>
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                            <input type="text" placeholder="Phone">
+                            <textarea placeholder="Message"></textarea>
+                            <input type="submit" value="SEND">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+{% endblock body %}
