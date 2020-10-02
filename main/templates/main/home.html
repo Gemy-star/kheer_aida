@@ -1,20 +1,21 @@
-{% include 'base.html' %}
+{% extends 'base.html' %}
 
 {% block title %} الرئيسيه {% endblock title %}
 
 
 {% block body %}
+    {% include 'header.html' %}
     {% include 'about.html' %}
     <div class="statistics text-capitalize text-center font-weight-bold">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-12">
-                        <i class="fas fa-umbrella-beach fa-3x"></i>
+                        <i class="fa fa-umbrella-beach fa-3x"></i>
                         <h3>425</h3>
                         <p>Tourists</p>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12">
-                        <i class="fas fa-birthday-cake fa-3x"></i>
+                        <i class="fa fa-birthday-cake fa-3x"></i>
                         <h3>125</h3>
                         <p>years</p>
                     </div>
@@ -24,7 +25,7 @@
                         <p>cottages</p>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12">
-                        <i class="fas fa-glass-cheers fa-3x"></i>
+                        <i class="fa fa-glass-cheers fa-3x"></i>
                         <h3>120</h3>
                         <p>restaurants</p>
                     </div>
@@ -35,14 +36,14 @@
         <div class="contact" id="contact">
             <div class="violet-overlay">
                 <div class="container">
-                    <h2 class="text-center">Get in touch</h2>
+                    <h2 class="text-center">شارك فى الخير</h2>
                     <div class="contact-form">
                         <form>
-                            <input type="text" placeholder="Name">
-                            <input type="email" placeholder="Email">
-                            <input type="text" placeholder="Phone">
-                            <textarea placeholder="Message"></textarea>
-                            <input type="submit" value="SEND">
+                            <input type="text" placeholder="الأسم">
+                            <input type="email" placeholder="البريد الأكترونى">
+                            <input type="text" placeholder="الهاتف">
+                            <textarea placeholder="الرساله"></textarea>
+                            <input type="submit" value="إرسال">
                         </form>
                     </div>
                 </div>

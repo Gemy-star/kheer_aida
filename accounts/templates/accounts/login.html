@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %} تسجيل الدخول {% endblock title %}
+
+
+ {% block body %}
+ <header id="home" class="login">
+            <div class="overlay headertxt">
+                <div class="container">
+                    <div>
+                        <h1><span>خير السعوديه</span><br>طاقات و أرواح</h1>
+                        <p>تسجيل الدخول </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="contact" id="contact">
+            <div class="violet-overlay">
+                <div class="container">
+                    <h2 class="text-center">شارك فى الخير</h2>
+                    <div class="contact-form">
+                        <form method="post">
+                            {% csrf_token %}
+                            <input type="email" placeholder="البريد الأكترونى" name="email" id="email">
+                            <input type="password" placeholder="كلمة السر" name="password" id="password">
+                            <input type="submit" value="الدخول">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+{% endblock body %}

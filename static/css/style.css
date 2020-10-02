@@ -1,5 +1,13 @@
 header {
-    background-image: url(../images/header.jpg);
+    background-image: url(../images/donate.jpg);
+    background-size: cover;
+}
+.login {
+    background-image: url(../images/login.png);
+    background-size: cover;
+}
+.register {
+    background-image: url(../images/register.png);
     background-size: cover;
 }
 
@@ -166,7 +174,7 @@ font-family: 'Cairo', sans-serif;
 }
 
 .about-us .small-container > p + div button {
-    background-color: forestgreen;
+    background-color: white;
     border: none;
 }
 
@@ -179,8 +187,8 @@ font-family: 'Cairo', sans-serif;
 .about-us .item {
     width: 200px;
     position: absolute;
-    color: white;
-    background-color: forestgreen;
+    color: black;
+    background-color: white;
 }
 
 .about-us .item p {
@@ -268,6 +276,9 @@ font-family: 'Cairo', sans-serif;
 .services .slide {
     width: 70%;
     margin: 0 auto;
+}
+.headertxt{
+    font-family: 'Cairo', sans-serif;
 }
 
 .services .carousel-inner .carousel-item {
@@ -371,7 +382,7 @@ font-family: 'Cairo', sans-serif;
 /* contact */
 
 .contact {
-    background-image: url('../imgs/contact.jpg');
+    background-image: url('../images/contact.jpg');
     background-size: cover;
 }
 
